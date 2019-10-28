@@ -22,8 +22,8 @@ sys.path.insert(0, os.path.join(package_root, package_name))
 # -- Project information -----------------------------------------------------
 
 project = package_name
-copyright = u'2019, Luca Baldini'
-author = u'Luca Baldini'
+copyright = u'2019, Davide Bruschini'
+author = u'Bruschini'
 
 # The short X.Y version
 from version import __version__
@@ -140,7 +140,7 @@ latex_elements = {
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
     (master_doc, 'splrand.tex', u'splrand Documentation',
-     u'Luca Baldini', 'manual'),
+     u'Davide Bruschini', 'manual'),
 ]
 
 
